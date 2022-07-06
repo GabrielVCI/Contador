@@ -1,0 +1,80 @@
+#body{
+
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+body, html{
+    height: 100%;
+
+}
+
+.counter{
+
+    color: beige;
+    width: 200px;
+    height: 200px;
+    position: fixed;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    font-size: xx-large;
+
+}
+
+
+.mas{
+
+    background-color: grey;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-top: 230px;
+    margin-left: 280px;
+    position: absolute;
+    display: grid;
+    
+}
+
+.menos{
+
+    background-color: grey;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 170px;
+    z-index: 1;
+    display: grid;
+   
+    
+}
+
+.cero{
+    color: black;
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: 170px;
+    margin-left: 200px;
+    position: absolute;
+    display: grid;
+    place-content: center;
+}
+
+.container{
+
+   margin-left: 500px;
+
+}
+
+button{
+
+    border: none;
+    font-size: xx-large;
+    color: white;
+    place-content: center;
+    
+}
